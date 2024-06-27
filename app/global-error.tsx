@@ -1,10 +1,16 @@
 "use client";
 
 import * as Sentry from "@sentry/nextjs";
+import NextError from "next/error";
 import Error from "next/error";
 import { useEffect } from "react";
 
-export default function GlobalError({ error }) {
+interface GlobalErrorProps {
+  error: Error;
+  statusCode: number;
+}
+
+export default function GlobalError( {error,statusCode} : GlobalErrorProps) {
   useEffect(() => {
     Sentry.captureException(error);
   }, [error]);
@@ -12,7 +18,7 @@ export default function GlobalError({ error }) {
   return (
     <html>
       <body>
-        <Error />
+        <NextError statusCode={statusCode} />
       </body>
     </html>
   );
