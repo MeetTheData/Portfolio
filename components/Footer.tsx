@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className='w-full mb-[100px] pb-10 mb:mb-5' id='contact'>
         <div className='flex flex-col items-center'>
-            <h1 className='font-bold text-3xl md:text-4xl text-center lg:max-w-[45vw]'>Let's turn data into impactful insights, and develop innovative UI solutions together!</h1>
+            <h1 className='font-bold text-3xl md:text-4xl text-center lg:max-w-[45vw]'>Let&apos;s turn data into impactful insights, and develop innovative UI solutions together!</h1>
             <p className='text-white-200 md:mt-10 my-5 text-center'> Reach out to me today and let&apos;s discuss how I can help you achieve your goals.</p>
             <a href="mailto:mpate150@stevens.edu">
                 <MagicButton
