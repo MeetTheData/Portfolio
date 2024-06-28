@@ -47,7 +47,7 @@ const Heroo = () => {
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
           </div>
     
-          <div className='flex justify-center relative my-20'>
+          <div className='flex justify-center relative mt-20'>
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex items-center justify-center'>
               {/* Profile Image */}
               <div className='flex-shrink-0 mr-10 md:w-[350px] md:h-[350px] w-[150px] h-[150px] relative'>
@@ -74,7 +74,7 @@ const Heroo = () => {
                 </h2> */}
     
                 <TextGenerateEffect 
-                  className='text-center text-[40px] text-3xl md:text-5xl lg:text-6xl'
+                  className='text-center text-[40px] text-2xl sm:text-3xl md:text-5xl lg:text-6xl'
                   words='Empowering Insights through Data and Design'/>
 
                 <TypewriterEffect
@@ -104,8 +104,10 @@ const Heroo = () => {
                 {/* <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                   Hi I&apos;m Meet, based in New York.    
                 </p> */}
-
-                <div className='flex flex-row justify-center items-center gap-4'>
+              </div>
+            </div>
+          </div>
+          <div className='flex flex-row justify-center items-center gap-4'>
                 <a href="#about">
                   <MagicButton
                     title='Show my work'
@@ -120,9 +122,6 @@ const Heroo = () => {
                     position='right'
                   />    
                 </a>     
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       )

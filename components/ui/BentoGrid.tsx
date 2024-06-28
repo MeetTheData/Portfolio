@@ -130,7 +130,7 @@ export const BentoGridItem = ({
                 {fstList.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4 lg:px-3 p-2 sm:py-2 sm:px-3 sm:text-xs text-[0.4rem] lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
@@ -143,7 +143,7 @@ export const BentoGridItem = ({
                 {sndList.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4 lg:px-3 p-2 sm:py-2 sm:px-3 sm:text-xs text-[0.4rem] lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
@@ -154,7 +154,7 @@ export const BentoGridItem = ({
                 {trdList.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4 lg:px-3 p-2 sm:py-2 sm:px-3 sm:text-xs text-[0.4rem] lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
@@ -167,7 +167,7 @@ export const BentoGridItem = ({
                 {fthList.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4 lg:px-3 p-2 sm:py-2 sm:px-3 sm:text-xs text-[0.4rem] lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}

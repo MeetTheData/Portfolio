@@ -105,7 +105,7 @@ export const navItems = [
       img: "/pro2.webp",
       iconLists: ["/python.png", "/scipy.png", "/statmod.svg", "/scikit.png", "/seaborn.svg"],
       iconDesc: ["Python", "Scipy", "Statmod", "Scikit", "Seaborn"],
-      link: "/ui.yoom.com",
+      link: "https://github.com/MeetTheData/LoanDefaulterPrediction/blob/main/MA-541%20Project%20-%20Meet%20Mukeshkumar%20Patel.ipynb",
     },
     {
       id: 3,
@@ -114,7 +114,7 @@ export const navItems = [
       img: "/pro3.jpg",
       iconLists: ["/r.png", "/python.png"],
       iconDesc: ["R", "Python"],
-      link: "/ui.aiimg.com",
+      link: "https://github.com/MeetTheData/TimeSeriesAnalysis/blob/main/MA641_MeetPatel_Project.pdf",
     },
     {
       id: 4,
@@ -123,7 +123,7 @@ export const navItems = [
       img: "/pro4.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
       iconDesc: ["NextJS", "TailwindCSS", "TypeScript", "ThreeJS"],
-      link: "/ui.apple.com",
+      link: "https://portfolio-eight-coral-66.vercel.app/",
     },
   ];
   
@@ -230,13 +230,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: 'https://github.com/MeetTheData'
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: ''
     },
     {
       id: 3,
       img: "/link.svg",
+      link: 'https://www.linkedin.com/in/mpate150/'
     },
   ];
