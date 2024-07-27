@@ -91,6 +91,24 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "People Analytics - Human Resource Dashboard",
+      des: "Crafted a dynamic HR dashboard in Tableau, encompassing user requirements, data visualization, and dashboard mockups using Figma",
+      img: "/pro1.png",
+      iconLists: ["/python.png", "/figma.png"],
+      iconDesc: ["Tableau", "Figma"],
+      link: "https://public.tableau.com/app/profile/meet.mukeshkumar.patel/viz/PeopleAnalyticsHRDashboard/HRSummary",
+    },
+    {
+      id: 2,
+      title: "British Airways Reviews Analysis",
+      des: "Created a comprehensive Tableau dashboard analyzing British Airways reviews with advanced data visualization using transformed data performed on Python",
+      img: "/pro1.png",
+      iconLists: ["/python.png", "/tab.png"],
+      iconDesc: ["Tableau", "Python"],
+      link: "https://public.tableau.com/app/profile/meet.mukeshkumar.patel/viz/BritishAirwaysTableau/Dashboard1",
+    },
+    {
+      id: 3,
       title: "Predicting Drug Discovery Leads with Machine Learning",
       des: "Leveraged RDKit, pandas, and a supervised ML model to predict bioactivity, achieving online deployment for interactive use",
       img: "/pro1.png",
@@ -99,7 +117,7 @@ export const navItems = [
       link: "https://bioactivityprediction-mtor.streamlit.app/",
     },
     {
-      id: 2,
+      id: 4,
       title: "Predicting Loan Defaulters with Statistical Analysis",
       des: "Utilized statsmodels, sciPy, and Random Forest with hyperparameter tuning to accurately predict loan defaulters, achieving an F1 score of 0.81.",
       img: "/pro2.webp",
@@ -108,7 +126,7 @@ export const navItems = [
       link: "https://github.com/MeetTheData/LoanDefaulterPrediction/blob/main/MA-541%20Project%20-%20Meet%20Mukeshkumar%20Patel.ipynb",
     },
     {
-      id: 3,
+      id: 5,
       title: "Forecasting Stock and Sales Trends with Time Series Analysis",
       des: "Implemented ARIMA and SARIMA models using R to forecast stock prices and sales trends, achieving precise projections with a MAPE of 11.6%.",
       img: "/pro3.jpg",
@@ -117,13 +135,13 @@ export const navItems = [
       link: "https://github.com/MeetTheData/TimeSeriesAnalysis/blob/main/MA641_MeetPatel_Project.pdf",
     },
     {
-      id: 4,
+      id: 6,
       title: "Personal Portfolio Website",
       des: "Developed personal website, combining components from AceternityUI and Next.js, for styling used TailwindCSS",
       img: "/pro4.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
       iconDesc: ["NextJS", "TailwindCSS", "TypeScript", "ThreeJS"],
-      link: "https://portfolio-eight-coral-66.vercel.app/",
+      link: "",
     },
   ];
   
