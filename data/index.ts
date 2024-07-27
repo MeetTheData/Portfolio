@@ -93,8 +93,8 @@ export const navItems = [
       id: 1,
       title: "People Analytics - Human Resource Dashboard",
       des: "Crafted a dynamic HR dashboard in Tableau, encompassing user requirements, data visualization, and dashboard mockups using Figma",
-      img: "/pro1.png",
-      iconLists: ["/python.png", "/figma.png"],
+      img: "/pro6.png",
+      iconLists: ["/tab.png", "/figma.png"],
       iconDesc: ["Tableau", "Figma"],
       link: "https://public.tableau.com/app/profile/meet.mukeshkumar.patel/viz/PeopleAnalyticsHRDashboard/HRSummary",
     },
@@ -102,7 +102,7 @@ export const navItems = [
       id: 2,
       title: "British Airways Reviews Analysis",
       des: "Created a comprehensive Tableau dashboard analyzing British Airways reviews with advanced data visualization using transformed data performed on Python",
-      img: "/pro1.png",
+      img: "/pro5.png",
       iconLists: ["/python.png", "/tab.png"],
       iconDesc: ["Tableau", "Python"],
       link: "https://public.tableau.com/app/profile/meet.mukeshkumar.patel/viz/BritishAirwaysTableau/Dashboard1",
@@ -141,7 +141,7 @@ export const navItems = [
       img: "/pro4.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
       iconDesc: ["NextJS", "TailwindCSS", "TypeScript", "ThreeJS"],
-      link: "",
+      link: "https://portfolio-five-inky-43.vercel.app/",
     },
   ];
   
