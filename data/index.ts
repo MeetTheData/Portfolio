@@ -91,7 +91,7 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Hospital CAHPS Patient Satisfaction Healthcare Data Analysis",
+      title: "Healthcare Data Analysis: Hospital CAHPS Patient Satisfaction",
       des: "Harnessing SQL for data cleaning and integration to drive impactful visualizations in Tableau for hospital CAHPS data analysis",
       img: "/pro7.png",
       iconLists: ["/tab.png", "/sql.png"],
@@ -157,7 +157,7 @@ export const navItems = [
       title: "Sushi Restaurant Website",
       des: "Crafted and designed a visually stunning sushi restaurant website using HTML, CSS, and JavaScript and modern design principles.",
       img: "/pro8.png",
-      iconLists: ["/html.png", "/css.png", "/js.png"],
+      iconLists: ["/html.png", "/css.png", "/js.webp"],
       iconDesc: ["HTML", "CSS", "JavaScript"],
       link: "https://sushimanui.netlify.app/",
     },
