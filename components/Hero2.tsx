@@ -108,7 +108,7 @@ const Heroo = () => {
             </div>
           </div>
           <div className='flex flex-row justify-center items-center gap-4'>
-                <a href="#about">
+                <a href="#projects">
                   <MagicButton
                     title='Show my work'
                     icon={<FaLocationArrow/>}
