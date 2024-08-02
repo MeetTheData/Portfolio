@@ -157,7 +157,7 @@ export const navItems = [
       title: "Sushi Restaurant Website",
       des: "Crafted and designed a visually stunning sushi restaurant website using HTML, CSS, and JavaScript and modern design principles.",
       img: "/pro8.png",
-      iconLists: ["/html.png", "/css.png", "/js.webp"],
+      iconLists: ["/html.jpeg", "/css.jpeg", "/js.webp"],
       iconDesc: ["HTML", "CSS", "JavaScript"],
       link: "https://sushimanui.netlify.app/",
     },
