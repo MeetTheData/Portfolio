@@ -56,7 +56,7 @@ const Heroo = () => {
                     borderRadius='10px'
                     className='flex-1 text-white border-neutral-200 dark:border-slate-800'
                 >
-                    <img src='/prof.jpg' alt='Profile Image' className='rounded-xl p-2'/>
+                    <img src='/prof3.jpg' alt='Profile Image' className='rounded-xl p-2'/>
                 </Button>
                 {/* <Image 
                   src='/prof3.jpg' 
