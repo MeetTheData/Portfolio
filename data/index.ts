@@ -232,8 +232,8 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Developer - TechQsoft",
-      desc: "Assisted in the development of a web-based platform using AngularJS, enhancing interactivity.",
+      title: "Data Analyst - TechQsoft",
+      desc: "Developed and optimized data-driven web applications and dashboards using SQL, Tableau, and AngularJS, resulting in improved performance metrics, increased user engagement, and significant cost savings for manufacturing operations.",
       dur: "TechQsoft | Oct 2020 - Jun 2022",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
@@ -241,7 +241,7 @@ export const navItems = [
     {
       id: 2,
       title: "Graduate Grading Assistant",
-      desc: "Enhanced student engagement and learning by designing in-class activities and mentoring 90 students.",
+      desc: "Enhanced student engagement and learning outcomes by designing interactive in-class activities and providing comprehensive mentoring to 90 students, while fostering a collaborative learning environment that promoted critical thinking.",
       dur: "Stevens Institute of Technology | Sep 2023 - May 2024",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",

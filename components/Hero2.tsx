@@ -59,7 +59,7 @@ const Heroo = () => {
                     <img src='/prof.jpg' alt='Profile Image' className='rounded-xl p-2'/>
                 </Button>
                 {/* <Image 
-                  src='/prof.jpg' 
+                  src='/prof3.jpg' 
                   alt='Profile Image' 
                   layout='fill'
                   objectFit='cover'
@@ -115,7 +115,7 @@ const Heroo = () => {
                     position='right'
                   />    
                 </a> 
-                <a href="/resume.pdf">
+                <a href="/Meet_Patel_Resume.pdf">
                   <MagicButton
                     title='View Resume'
                     icon={<FaLocationArrow/>}
